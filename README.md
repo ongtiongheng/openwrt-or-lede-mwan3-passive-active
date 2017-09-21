@@ -1,5 +1,5 @@
-# openwrt-or-lede-mwan3-passive-active
-A working active-passive mutlihoming soho router w/o BGP
+# Openwrt-or-lede with mwan3, instead of balancing, you use it as passive-active
+i.e.  mutlihoming soho router w/o BGP
 
 Simple setup your OpenWRT/LEDE router
 
