@@ -7,9 +7,9 @@ Configure or isolate existing port to become WAN2.
 Install mwan3 to balance the WAN (both) interfaces.
 https://wiki.openwrt.org/doc/howto/mwan3
 
-Configure "active and passive" interfaces
-Goto cron https://wiki.openwrt.org/doc/howto/cron, setup it up.
-
+Setting up "active and passive" interfaces
+1st goto cron https://wiki.openwrt.org/doc/howto/cron, setup it up.
+Then you do these bunches of one liners
 
 - # Have configured the WAN interfaces as WAN = eth0.2 and WAN2 = eth0.3. 
 - # Odd timing, detect interface up, add default route
