@@ -5,9 +5,6 @@ Objective - HA uplinks with failed over, eta 2 minutes+
 e.g. Uplink A , 58.65.16.172 (PE)- 58.65.16.173 (CE)
      Uplink B,  58.65.16.174 (PE)- 58.65.16.175 (CE)
      
-    Uplink A 
-CE-<
-    Uplink B
 
 [Setup your OpenWRT/LEDE router]
 
