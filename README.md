@@ -1,15 +1,21 @@
 # Openwrt-or-lede with mwan3, instead of balancing, you can failover as passive-active links
 i.e.  mutlihoming soho router w/o BGP
 
-Failed over timing, eta 2 minutes+
+Objective - HA uplinks with failed over, eta 2 minutes+
+e.g. Uplink A , 58.65.16.172 (PE)- 58.65.16.173 (CE)
+     Uplink B,  58.65.16.174 (PE)- 58.65.16.175 (CE)
+     
+    Uplink A 
+CE-<
+    Uplink B
 
-Simple setup your OpenWRT/LEDE router
+[Setup your OpenWRT/LEDE router]
 
 Configure or isolate existing port to become WAN2.
 Install mwan3 to balance the WAN (both) interfaces.
 https://wiki.openwrt.org/doc/howto/mwan3
 
-Setting up "active and passive" interfaces
+[Configure "active and passive" interfaces]
 1st goto cron https://wiki.openwrt.org/doc/howto/cron, setup it up.
 Then you do these bunches of one liners
 
